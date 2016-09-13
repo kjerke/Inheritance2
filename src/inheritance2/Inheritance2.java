@@ -5,6 +5,7 @@
  */
 package inheritance2;
 
+
 /**
  *
  * @author kevinjerke
@@ -15,6 +16,12 @@ public class Inheritance2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Superman s = new Superman();
+        
+        s.getNameOfMovie();
+        s.getSuperHeroName();
+
+        s.getMovieDetails();
         
     }
     

@@ -18,13 +18,13 @@ public class SuperHeroCharacter extends ActionMovie{
     public String getSuperHeroName() {
         return superHeroName;
     }
-
+  
     public void setSuperHeroName(String superHeroName) {
         this.superHeroName = superHeroName;
     }
 
  
-    
+  
     public void getMovieDetails(){
         JOptionPane.showMessageDialog(null, "Movie type: " + getNameOfMovie() + "superHeroName: " + getSuperHeroName());
     }

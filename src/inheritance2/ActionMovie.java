@@ -18,7 +18,7 @@ public class ActionMovie {
     public String getNameOfMovie() {
     return nameOfMovie;
     }
-
+   
     public void setNameOfMovie(String nameOfMovie) {
         this.nameOfMovie = nameOfMovie;
         
@@ -32,8 +32,7 @@ public class ActionMovie {
         return characterType;
     }
     
-    
-    
+   
     public void getCharacterDetails(){
         JOptionPane.showMessageDialog(null, "Character Details: " + getCharacterType());
     }

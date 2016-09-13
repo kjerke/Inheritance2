@@ -5,6 +5,7 @@
  */
 package inheritance2;
 
+import javax.swing.JOptionPane;
 /**
  *
  * @author kevinjerke
@@ -27,6 +28,10 @@ public class Superman extends SuperHeroCharacter{
 
     public void setHeroicMoments(String heroicMoments) {
         this.heroicMoments = heroicMoments;
+    }
+    
+    public void getMovieDetails(){
+        JOptionPane.showMessageDialog(null, "Movie Details: " + getHeroicMoments());
     }
     
 }
