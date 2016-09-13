@@ -10,5 +10,23 @@ package inheritance2;
  * @author kevinjerke
  */
 public class Superman extends SuperHeroCharacter{
+    String superPowers; 
+    String heroicMoments; 
+    
+    public String getSuperPowers() {
+        return superPowers;
+    }
+
+    public void setSuperPowers(String superPowers) {
+        this.superPowers = superPowers;
+    }
+
+    public String getHeroicMoments() {
+        return heroicMoments;
+    }
+
+    public void setHeroicMoments(String heroicMoments) {
+        this.heroicMoments = heroicMoments;
+    }
     
 }

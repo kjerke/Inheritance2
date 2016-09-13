@@ -5,10 +5,29 @@
  */
 package inheritance2;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author kevinjerke
  */
 public class SuperHeroCharacter extends ActionMovie{
+    String superHeroName;
+
+    
+    public String getSuperHeroName() {
+        return superHeroName;
+    }
+
+    public void setSuperHeroName(String superHeroName) {
+        this.superHeroName = superHeroName;
+    }
+
+ 
+    
+    public void getMovieDetails(){
+        JOptionPane.showMessageDialog(null, "Movie type: " + getNameOfMovie() + "superHeroName: " + getSuperHeroName());
+    }
+    
     
 }
